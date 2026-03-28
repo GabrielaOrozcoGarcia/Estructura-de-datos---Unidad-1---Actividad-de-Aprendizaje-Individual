@@ -1,6 +1,9 @@
 package main
 
-import "fmt"
+import (
+	"actividad-go/miniproyecto"
+	"fmt"
+)
 
 // ACTIVIDADES RECORD STRUCT
 
@@ -65,4 +68,8 @@ func main() {
 	for i := range estudiantes {
 		estudiantes[i].mostrarInfo()
 	}
+
+	// MINI PROYECTO VEHICULOS
+	fmt.Println("\n===== MINI PROYECTO VEHICULOS =====")
+	miniproyecto.EjecutarMiniProyecto()
 }
